@@ -1,0 +1,46 @@
+/* Write your CSS code here. */
+* {
+  color: #000000;
+  font-family: 'roboto';
+}
+.backGround {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 80vh;
+  width: 80vh;
+  margin: 10vh;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.img {
+  height: 6vh;
+  cursor: pointer;
+}
+.emojiLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.whiteBackground {
+  background-color: #ffffff;
+  margin: 10vh;
+  padding: 5vh;
+  border-radius: 1vh;
+}
+.p {
+  font-size: 10px;
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heart {
+  height: 5vh;
+  width: 5vh;
+  display: flex;
+  align-self: center;
+}
